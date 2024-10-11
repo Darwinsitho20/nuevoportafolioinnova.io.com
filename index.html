@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portafolio - Desarrollador Web</title>
+    <style>
+        /* Estilos globales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1c1c1c;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            color: #f0e68c;
+            font-size: 3rem;
+        }
+
+        .welcome-section {
+            margin-bottom: 40px;
+        }
+
+        .welcome-section h1 {
+            font-size: 4rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .welcome-section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .projects-section {
+            margin-top: 20px;
+        }
+
+        .projects-section h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #f0e68c;
+        }
+
+        .projects-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects-section li {
+            margin: 10px 0;
+        }
+
+        .projects-section a {
+            text-decoration: none;
+            color: #a9a9a9;
+            font-size: 1.2rem;
+        }
+
+        .projects-section a:hover {
+            color: #f0e68c;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #a9a9a9;
+        }
+
+        /* Estilo para el botón de contacto */
+        .contact-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #f0e68c;
+            color: #1c1c1c;
+            padding: 15px 25px;
+            border-radius: 50px;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .contact-button:hover {
+            background-color: #d4c246;
+        }
+
+        /* Responsividad */
+        @media screen and (max-width: 768px) {
+            .welcome-section h1 {
+                font-size: 3rem;
+            }
+
+            .welcome-section p {
+                font-size: 1rem;
+            }
+
+            .projects-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .projects-section a {
+                font-size: 1rem;
+            }
+
+            .contact-button {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .welcome-section h1 {
+                font-size: 2rem;
+            }
+
+            .welcome-section p {
+                font-size: 0.9rem;
+            }
+
+            .projects-section h2 {
+                font-size: 1.2rem;
+            }
+
+            .projects-section a {
+                font-size: 0.9rem;
+            }
+
+            .contact-button {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>INNOVA</h1>
+            </div>
+        </header>
+
+        <main>
+            <section class="welcome-section">
+                <h1>Bienvenido.</h1>
+                <p>Mi nombre es Darwin Antonio Hortega Gonzalez, soy Ingeniero Informatico, desarrollador front-end y diseñador backend, con sede en virtual, ubicado en Buenaventura, Colombia. He desarrollado muchos tipos de front-ends desde aplicaciones 3D, sitios web, proyectos basicos, avanzados, base de datos y administración de redes, conocidas en github, hasta plataformas de reservas de comercio electrónico.</p>
+                <p>Soy apasionado por interfaces de vanguardia, perfectas al píxel, hermosas y con UX implementadas de manera intuitiva.</p>
+            </section>
+
+            <section class="projects-section">
+                <h2>Proyectos</h2>
+                <ul>
+                    <li><a href="https://darwinsitho20.github.io/dise-oweb.innova.io.co/">DiseñoWeb</a></li>
+                    <li><a href="https://darwinsitho20.github.io/proyectocaebbuenaventura.io/">CAEB</a></li>
+                    <li><a href="https://darwinsitho20.github.io/buenaventuraplza.co/">Buenaventura Plaza</a></li>
+                    <li><a href="https://darwinsitho20.github.io/buenaventuracenter.io/">Buenaventura Center</a></li>
+                    <li><a href="https://darwinsitho20.github.io/licoreriad-m.co/">Licorería D&M</a></li>
+                    <li><a href="https://darwinsitho20.github.io/cadenadesuministrobuensa.co/">Cadena de Suministro</a></li>
+                    <li><a href="https://darwinsitho20.github.io/Loungediscoteca.io.com/">Lounge Discoteca</a></li>
+                    <li><a href="https://darwinsitho20.github.io/innova.github.io/">INNOVA</a></li>
+                    <li><a href="https://darwinsitho20.github.io/d-mtourtravel.com/">D&M Tour Travel</a></li>
+                    <li><a href="https://darwinsitho20.github.io/restauranteml.co/">Restaurante LM</a></li>
+                    <li><a href="https://darwinsitho20.github.io/barbershop.co/">Barbershop</a></li>
+                    <li><a href="https://darwinsitho20.github.io/servicioinmobiliariobuenaventura.com.co/">Sector Inmobiliario</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 dunk180.com</p>
+        </footer>
+
+        <a href="contacto.html" class="contact-button">Contacto</a>
+    </div>
+</body>
+</html>
